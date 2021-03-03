@@ -1,4 +1,19 @@
+I like tea
+I like chocolate biscuits
+I like snow…
+I like 1
+I like 2
+I like 3
+I like 4
+<<<<<<< HEAD
+I like 5 
+haoye 
+I like 7 very much 
 
-I like talk radio
-I like snow
-I like biscuits
+h
+h'
+j
+j
+j
+
+>>>>>>> Alex

@@ -1,19 +1,12 @@
 I like tea
 I like chocolate biscuits
 I like snow…
-I like 1
-I like 2
-I like 3
-I like 4
-<<<<<<< HEAD
-I like 5 
-haoye 
-I like 7 very much 
-
-h
-h'
-j
-j
-j
-
->>>>>>> Alex
+I like animate
+I like fish
+I like reading
+I don't like sports
+I like practicing
+I like tennies very much 
+I like poetry
+I like computer games 
+I like sleeping

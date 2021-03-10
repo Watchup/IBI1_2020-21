@@ -17,5 +17,5 @@ while p == False:
 	n = randint(1,100)
 	if n > 50:
 		p = False
-# if n > 50, the cycle repeats, if not, the stop.
+# if n > 50, the cycle repeats, if not, then stop.
 print(n)

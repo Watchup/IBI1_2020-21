@@ -7,14 +7,17 @@ zipped = zip(gene_lengths, exon_counts)
 zipped_list = list(zipped)
 print(zipped_list)         #It can match gene_lengths and exon_counts one to one
 
+# exon_lenght = gene_lengths / exon_counts
+# Lists cannot be numerically evaluated;
+# they must be converted to Arrays
 gene_lengths_array = np.array(gene_lengths)
 exon_counts_array = np.array(exon_counts)
-exon_lenght = gene_lengths_array/exon_counts_array
-                                    # exon_lenght = gene_lengths / exon_counts
-                                    # Lists cannot be numerically evaluated;
-                                    # they must be converted to Arrays
+exon_length = gene_lengths_array/exon_counts_array
+exon_length_list = list(exon_length)   # change to list
+exon_length_list.sort()               # sorting
+
 fig1, ax1 = plt.subplots()
-ax1.boxplot(exon_lenght,
+ax1.boxplot(exon_length_list,
             vert = True,
             whis = 1.5,
             patch_artist = True,

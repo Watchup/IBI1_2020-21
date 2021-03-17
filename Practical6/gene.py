@@ -27,6 +27,6 @@ ax1.boxplot(exon_length_list,
             showfliers = True,
             notch = False,
               )   # Some basic properties of boxplot
-ax1.set(title = 'exon lenght',)
+ax1.set(title = 'exon lenght')
 
 plt.show()

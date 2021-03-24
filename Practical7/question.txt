@@ -1,0 +1,9 @@
+How have new cases and total cases developed over time in Spain?
+
+code in covid.py: line 9-16, 70-76
+
+Generally speaking, it increased slowly at first and then rapidly.
+
+The data was in line with my expectations.
+The big change in the later period may have been caused by the government's 
+weak supervision. 

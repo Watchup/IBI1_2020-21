@@ -8,7 +8,7 @@ result = []
 for i in range(0, len(lines)):
     if lines[i].startswith(">"):  # Find the description
         if 'unknown function' in lines[i]:  # Check whether it is unknown function
-            result.append(re.findall(r'^>.+?_', lines[i])[0])
+            result.append(re.findall(r'(>.+?)(?:_| )', lines[i])[0])
             bases = ''
             for n in range(0, len(lines[i:-1])):
                 if not lines[i+n+1].startswith(">"):  # Skip the description line

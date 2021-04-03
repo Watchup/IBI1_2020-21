@@ -1,5 +1,5 @@
 def translate(seq):
-    second_letter = {
+    codon_table = {
     'TTT':'F', 'TCT':'S', 'TAT':'Y', 'TGT':'C',
     'TTC':'F', 'TCC':'S', 'TAC':'Y', 'TGC':'C',
     'TTA':'L', 'TCA':'S', 'TAA':'O', 'TGA':'X',
@@ -20,7 +20,7 @@ def translate(seq):
 
     protein = ''
     for i in range(0, len(seq), 3):
-        protein = protein + second_letter[seq[i:i+3]]
+        protein = protein + codon_table[seq[i:i+3]]
     return protein
 
 seq = 'ATGCGACTACGATCGAGGGCC'

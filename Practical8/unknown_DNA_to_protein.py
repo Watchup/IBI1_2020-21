@@ -22,7 +22,7 @@ for i in range(0, len(lines)):
 for i in range(0, len(result)):   # Read the length of the protein
     if result[i].startswith(">"):
         result[i] += "  "
-        result[i] += str(len(result[i+1]))
+        result[i] += str(len(result[i+1]) - 1)
         result[i] += "\n"
 
 with open('unknown_protein.fa','w') as output:

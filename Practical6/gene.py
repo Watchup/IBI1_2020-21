@@ -14,7 +14,7 @@ gene_lengths_array = np.array(gene_lengths)
 exon_counts_array = np.array(exon_counts)
 exon_length = gene_lengths_array/exon_counts_array
 exon_length_list = list(exon_length)   # change to list
-exon_length_list.sort()               # sorting
+print(sorted(exon_length_list))               # sorting
 
 fig1, ax1 = plt.subplots()
 ax1.boxplot(exon_length_list,

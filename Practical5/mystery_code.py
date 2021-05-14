@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer: Random generation of a number greater than 1 and less than 50
-
+# Correct answer: There is a commented line that says what the code does: Selects a random number between 1 and 100 until a number less than 50 is selected, which is then printed
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
